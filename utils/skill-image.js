@@ -1,4 +1,3 @@
-import * as adobeXd from '/public/svg/skills/adobe-xd.svg';
 import adobeaudition from '/public/svg/skills/adobeaudition.svg';
 import afterEffects from '/public/svg/skills/after-effects.svg';
 import angular from '/public/svg/skills/angular.svg';
@@ -72,6 +71,9 @@ import vuetifyjs from '/public/svg/skills/vuetifyjs.svg';
 import webix from '/public/svg/skills/webix.svg';
 import wolframalpha from '/public/svg/skills/wolframalpha.svg';
 import wordpress from '/public/svg/skills/wordpress.svg';
+import ubuntu from '/public/svg/skills/ubuntu.svg';
+import adobeXd from '/public/svg/skills/adobe_xd.svg';
+import laravel from '/public/svg/skills/laravel.svg'
 
 
 export const skillsImage = (skill) => {
@@ -213,7 +215,7 @@ export const skillsImage = (skill) => {
       return ionic;
     case 'markdown':
       return markdown;
-    case 'microsoft office':
+    case 'ms office':
       return microsoftoffice;
     case 'picsart':
       return picsart;
@@ -225,6 +227,10 @@ export const skillsImage = (skill) => {
       return wolframalpha;
     case 'canva':
       return canva;
+    case 'ubuntu':
+      return ubuntu;
+    case 'laravel':
+      return laravel;
     default:
       break;
   }

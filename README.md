@@ -123,10 +123,10 @@ export const personalData = {
   phone: "+18033103089",
   address: "Hazelwood, MO 63042",
   github: "https://github.com/high5dev",
-  linkedIn: "https://www.linkedin.com/in/abu-said-bd/",
+  linkedIn: "https://www.linkedin.com/in/cory-mack-480231294",
   stackOverflow: "https://stackoverflow.com/users/17946244/oneshot621",
   leetcode: "https://leetcode.com/u/high5dev/",
-  devUsername: "said7388",
+  devUsername: "high5dev",
   resume: "...",
 };
 ```

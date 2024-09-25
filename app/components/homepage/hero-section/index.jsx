@@ -4,7 +4,7 @@ import { personalData } from "@/utils/data/personal-data";
 import Image from "next/image";
 import Link from "next/link";
 import { BsGithub, BsLinkedin } from "react-icons/bs";
-import { FaFacebook, FaTwitterSquare } from "react-icons/fa";
+import { FaFacebook, FaTwitterSquare, FaStackOverflow } from "react-icons/fa";
 import { MdDownload } from "react-icons/md";
 import { RiContactsFill } from "react-icons/ri";
 import { SiLeetcode } from "react-icons/si";
@@ -46,13 +46,13 @@ function HeroSection() {
             >
               <BsLinkedin size={30} />
             </Link>
-            <Link
+            {/* <Link
               href={personalData.facebook}
               target='_blank'
               className="transition-all text-pink-500 hover:scale-125 duration-300"
             >
               <FaFacebook size={30} />
-            </Link>
+            </Link> */}
             <Link
               href={personalData.leetcode}
               target='_blank'
@@ -60,12 +60,19 @@ function HeroSection() {
             >
               <SiLeetcode size={30} />
             </Link>
-            <Link
+            {/* <Link
               href={personalData.twitter}
               target='_blank'
               className="transition-all text-pink-500 hover:scale-125 duration-300"
             >
               <FaTwitterSquare size={30} />
+            </Link> */}
+            <Link
+              href={personalData.stackOverflow}
+              target='_blank'
+              className="transition-all text-pink-500 hover:scale-125 duration-300"
+            >
+              <FaStackOverflow size={30} />
             </Link>
           </div>
 
@@ -122,11 +129,29 @@ function HeroSection() {
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">Express</span>
                 <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">Angular</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">ASP.NET</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">Laravel</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">Django</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">WordPress</span>
+                <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">NestJS</span>
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">MySql</span>
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">MongoDB</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">Jenkins</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">Vercel</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">Ubuntu</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">CentOS</span>
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">Docker</span>
                 <span className="text-gray-400">{"', '"}</span>
@@ -169,9 +194,9 @@ function HeroSection() {
               </div>
               <div>
                 <span className="ml-12 lg:ml-24 text-cyan-400">this.</span>
-                <span className="mr-2 text-white">skills.length</span>
+                <span className="mr-2 text-white">professional.experience</span>
                 <span className="mr-2 text-amber-300">&gt;=</span>
-                <span className="text-orange-400">5</span>
+                <span className="text-orange-400">9</span>
               </div>
               <div><span className="ml-8 lg:ml-16 mr-2 text-gray-400">{`);`}</span></div>
               <div><span className="ml-4 lg:ml-8 text-gray-400">{`};`}</span></div>
