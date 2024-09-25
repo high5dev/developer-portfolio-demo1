@@ -1,23 +1,23 @@
-<p align="center" width="100%">
-    <img height="100" src="https://github.com/said7388/developer-portfolio/assets/77630868/c0064908-cd5f-4751-a77c-eba90a62b55c">
-</p>
+# 🚀 Cory's Developer Portfolio
 
----
-# [Built Portfolio With GitHub ](https://github.com/high5dev)
+Welcome to my personal portfolio website built with [Next.js](https://nextjs.org) and deployed on [Vercel](https://vercel.com). This site showcases my projects, skills, and experience as a full stack developer.
 
----
-
-# Developer Portfolio
-
-### Are you struggling to create a professional portfolio website? Look no further! You can use the Developer Portfolio template and create your very own personalized portfolio today! My website is designed to be user-friendly and easily customizable, making it perfect for both developers and freelancers.
-
----
 
 # Demo :movie_camera:
 
 ![](./public/image/screen.png)
 
-## View live preview [here](https://abusaid.netlify.app/).
+## View live preview [here](https://corymack.vercel.app/).
+
+---
+
+## ✨ Features
+
+- **Responsive Design**: Fully responsive and optimized for mobile and desktop devices.
+- **Projects Showcase**: Display of featured projects with descriptions, technologies used, and live demos.
+- **Dynamic Blog**: Integrated blog section with posts about my journey, tutorials, and insights into web development.
+- **Contact Form**: Easily get in touch with me through a dynamic contact form.
+- **Fast and SEO-optimized**: Lightning-fast performance with search engine optimization.
 
 ---
 
@@ -118,9 +118,9 @@ export const personalData = {
   name: "Cory Mack",
   profile: "/profile.png",
   designation: "Full-Stack Software Developer",
-  description: "My name is Cory Mack....",
-  email: "high5dev621@gmail.com",
-  phone: "+18033103089",
+  description: "My name is Handsome Guy....",
+  email: "handsomeguy@gmail.com",
+  phone: "+16923541564",
   address: "Hazelwood, MO 63042",
   github: "https://github.com/high5dev",
   linkedIn: "https://www.linkedin.com/in/cory-mack-480231294",
