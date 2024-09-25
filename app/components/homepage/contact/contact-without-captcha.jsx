@@ -35,6 +35,8 @@ function ContactWithoutCaptcha() {
     const templateID = process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID;
     const options = { publicKey: process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY };
 
+    console.log( serviceID, templateID)
+
     try {
       const res = await emailjs.send(serviceID, templateID, userInput, options);
       const teleRes = await axios.post(`${process.env.NEXT_PUBLIC_APP_URL}/api/contact`, userInput);
